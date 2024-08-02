@@ -22,7 +22,7 @@ Meu_soma.get('/calculo/subtrair/:n1/:n2', ( req, resp ) => {
     resp.send(`A subtração é de ${subtrair}`);
 })
 
-Meu_soma.get('/calculo/multiplicação/:n1/:n2', ( req, resp ) => {
+Meu_soma.get('/calculo/multiplicacao/:n1/:n2', ( req, resp ) => {
     let n1 = Number(req.params.n1);
     let n2 = Number(req.params.n2);
 
